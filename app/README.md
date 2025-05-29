@@ -6,3 +6,4 @@
 - Next.js
 - TypeScript
 - Neon (Database - Postgress)
+- Shadcn/ui
