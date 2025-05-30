@@ -58,3 +58,8 @@ Pass:
     7. Excluir arquivo gerado: auth-schema.ts
 11. Criação da página dashboard:
     1. app/dashboard
+12. Criação do arquivo responsável pela comunicação e ação (GET, POST):
+    1. api/auth/[...all]/route.ts
+13. Criação de validações na página de autenticação:
+    1. Instalar dependência: npx shadcn@2.5.0 add sonner
+    2. Adicionado "Toaster" ao arquivo src/app/layout.tsx: para que todas as páginas consigam exibir o Pop-up de alerta instalado anteriormente
