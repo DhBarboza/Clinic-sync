@@ -1,5 +1,7 @@
 ### Descrição
 
+Stop aula 2 1:07:03
+
 ### Ferramentas:
 
 - Drizzle (ORM)
@@ -54,3 +56,5 @@ Pass:
     5. Abrir Drizzle Studio: npx drizzle-kit studio, limpar colunas já existentes
     6. Executar script de geração/atualização das tabelas: npx drizzle-kit push
     7. Excluir arquivo gerado: auth-schema.ts
+11. Criação da página dashboard:
+    1. app/dashboard
