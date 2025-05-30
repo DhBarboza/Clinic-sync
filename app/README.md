@@ -8,6 +8,7 @@
 - Neon (Database - Postgress)
 - Shadcn/ui
 - Zod - Biblioteca de validação de schema
+- Better-Auth - Biblioteca de Autenticação
 
 Pass:
 1º Aula: A
@@ -38,4 +39,18 @@ Pass:
    1. npx shadcn@2.5.0 init
 7. Criar página de autenticação:
    1. authentication/page.tsx
-   1. Instalação do component UI: npx shadcn@2.5.0 add tabs & npx shadcn@2.5.0 add card & npx shadcn@2.5.0 add input label form
+   2. Instalação do component UI: npx shadcn@2.5.0 add tabs & npx shadcn@2.5.0 add card & npx shadcn@2.5.0 add input label form
+   3. Criação dos componentes: components/login-form.tsx && components/sign-up-form.tsx
+8. Instalação da biblioteca de autenticação:
+   1. npm i better-auth
+9. Configuração de artefatos para autenticação:
+   1. Definição de váriaveis de ambiente: .env
+   2. Criação de instância: lib/auth.ts && lib/auth-client.ts
+10. Conectar Autenticação (better-auth) com o banco de dados (drizzle):
+    1. Instalar Dotenv: npm i dotenv@16.5.0
+    2. Executar script de geração de schema: npx @better-auth/cli@latest generate
+    3. Gerado automáticamente o schema de autenticação: auth-schema.ts
+    4. Copiar o schema gerado do arquivo auth-schema.ts, para nosso arquivo padrão
+    5. Abrir Drizzle Studio: npx drizzle-kit studio, limpar colunas já existentes
+    6. Executar script de geração/atualização das tabelas: npx drizzle-kit push
+    7. Excluir arquivo gerado: auth-schema.ts
