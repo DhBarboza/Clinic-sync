@@ -1,6 +1,6 @@
 ### Descrição
 
-Stop aula 2 1:07:03
+Stop aula 2 59:18
 
 ### Ferramentas:
 
