@@ -1,6 +1,6 @@
 ### Descrição
 
-Stop aula 2 59:18
+Stop aula 2 53:23
 
 ### Ferramentas:
 
@@ -63,3 +63,13 @@ Pass:
 13. Criação de validações na página de autenticação:
     1. Instalar dependência: npx shadcn@2.5.0 add sonner
     2. Adicionado "Toaster" ao arquivo src/app/layout.tsx: para que todas as páginas consigam exibir o Pop-up de alerta instalado anteriormente
+    3. Aprimorado pop-up de notificação: app/layout.tsx
+    4. Aprimorando as páginas de autenticação: login-forms.tsx & sign-up-forms.tsx (components)
+    5. Elaboração dá página do dashboard e adição de validação de sessão: app/dashboard/page.tsx
+14. Implementação de Query´s do banco de dados:
+    1. Modificação no arquivo "db/index.ts"
+15. Criação da página de clinicas
+    1. Instalação da dependêcia: npx shadcn@2.5.0 add dialog
+    2. Criação do formulário de cadastro de clínica: app/clinic-form
+16. Criação do "Server actions" (Rotas de API´s)
+    1. criação da rota de "Criação de clinica"
