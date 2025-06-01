@@ -1,6 +1,6 @@
 ### Descrição
 
-Stop aula 2 53:23
+Stop aula 2 15:09
 
 ### Ferramentas:
 
@@ -73,3 +73,17 @@ Pass:
     2. Criação do formulário de cadastro de clínica: app/clinic-form
 16. Criação do "Server actions" (Rotas de API´s)
     1. criação da rota de "Criação de clinica"
+17. Implementação da autenticação com o Google:
+    1. Acessar: Google cloud platform - developer COnsole
+    1. Criar projeto
+    1. Acessar: API & Sevices > Credencials
+    1. Configure consent screen > Get started
+    1. Configurar o projeto
+    1. Retornar: API & Sevices > Credencials => Create credentials > OAuth Client ID
+    1. Application type: Web Application
+    1. Authorized Redirec URI: https://localhost:3000/api/auth/callback/google
+    1. Authorized JavaScript origins: https://localhost:3000
+    1. Copiar "Client ID" E "Client Secret" gerado
+    1. Configurar variavel de ambiente: .env
+    1. Configurar arquivo de autenticação: lib/auth.ts
+    1. Adicionar nas páginas de Login o component: authentication/components/login-form.tsx
