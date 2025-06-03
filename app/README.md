@@ -76,19 +76,19 @@ Pass:
     1. criação da rota de "Criação de clinica"
 17. Implementação da autenticação com o Google:
     1. Acessar: Google cloud platform - developer Console
-    1. Criar projeto
-    1. Acessar: API & Sevices > Credencials
-    1. Configure consent screen > Get started
-    1. Configurar o projeto
-    1. Retornar: API & Sevices > Credencials => Create credentials > OAuth Client ID
-    1. Application type: Web Application
-    1. Authorized Redirec URI: https://localhost:3000/api/auth/callback/google
-    1. Authorized JavaScript origins: https://localhost:3000
-    1. Copiar "Client ID" E "Client Secret" gerado
-    1. Configurar variavel de ambiente: .env
-    1. Configurar arquivo de autenticação: lib/auth.ts
-    1. Adicionar nas páginas de Login o component: authentication/components/login-form.tsx
+    2. Criar projeto
+    3. Acessar: API & Sevices > Credencials
+    4. Configure consent screen > Get started
+    5. Configurar o projeto
+    6. Retornar: API & Sevices > Credencials => Create credentials > OAuth Client ID
+    7. Application type: Web Application
+    8. Authorized Redirec URI: https://localhost:3000/api/auth/callback/google
+    9. Authorized JavaScript origins: https://localhost:3000
+    10. Copiar "Client ID" E "Client Secret" gerado
+    11. Configurar variavel de ambiente: .env
+    12. Configurar arquivo de autenticação: lib/auth.ts
+    13. Adicionar nas páginas de Login o component: authentication/components/login-form.tsx
 18. Criação da Sidebar
     1. Instalação de dependêcia: npx shadcn@2.5.0 add sidebar
-    1. Criação de pasta: src/app/(protected): Rotas aonde o usuário precisa estar logado para que possa acessar
-    1. Mover as pastas de dashboard e clinic-form para (protected)
+    2. Criação de pasta: src/app/(protected): Rotas aonde o usuário precisa estar logado para que possa acessar
+    3. Mover as pastas de dashboard e clinic-form para (protected)
