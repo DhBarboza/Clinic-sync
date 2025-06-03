@@ -75,7 +75,7 @@ Pass:
 16. Criação do "Server actions" (Rotas de API´s)
     1. criação da rota de "Criação de clinica"
 17. Implementação da autenticação com o Google:
-    1. Acessar: Google cloud platform - developer COnsole
+    1. Acessar: Google cloud platform - developer Console
     1. Criar projeto
     1. Acessar: API & Sevices > Credencials
     1. Configure consent screen > Get started
@@ -88,3 +88,7 @@ Pass:
     1. Configurar variavel de ambiente: .env
     1. Configurar arquivo de autenticação: lib/auth.ts
     1. Adicionar nas páginas de Login o component: authentication/components/login-form.tsx
+18. Criação da Sidebar
+    1. Instalação de dependêcia: npx shadcn@2.5.0 add sidebar
+    1. Criação de pasta: src/app/(protected): Rotas aonde o usuário precisa estar logado para que possa acessar
+    1. Mover as pastas de dashboard e clinic-form para (protected)
