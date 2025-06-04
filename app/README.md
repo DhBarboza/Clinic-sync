@@ -92,3 +92,7 @@ Pass:
     1. Instalação de dependêcia: npx shadcn@2.5.0 add sidebar
     2. Criação de pasta: src/app/(protected): Rotas aonde o usuário precisa estar logado para que possa acessar
     3. Mover as pastas de dashboard e clinic-form para (protected)
+    4. Criar component App Sidebar: (protected)/\_components/app-sidebar.tsx
+    5. configurar app-sidebar.tsx
+    6. Adicionar dependencia: npx shadcn@2.5.0 add dropdown-menu
+    7. Adicionar configuração de retorno de informações do usuário logado, como por exemplos as clinicas em que ele possui: lib/auth.ts & lib/auth-client.ts
