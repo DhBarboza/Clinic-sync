@@ -96,3 +96,12 @@ Pass:
     5. configurar app-sidebar.tsx
     6. Adicionar dependencia: npx shadcn@2.5.0 add dropdown-menu
     7. Adicionar configuração de retorno de informações do usuário logado, como por exemplos as clinicas em que ele possui: lib/auth.ts & lib/auth-client.ts
+    8. Criar componente personalizado que será utilziado em todas as páginas: components/ui/page-container.tsx
+    9. Criar a página de médicos: (protected)/doctors/page.tsx
+    10. Adicionar validação para averiguar se o usuário possuí clinica cadastrada: lib/auth.ts
+    11. Criação do recurso de cadastro de médico:
+        1. Adicionar dependencia: npx shadcn@2.5.0 add select
+        2. Criação do componente: (protected)/doctors/\_components/add-doctor-button.tsx
+        3. Criação do componente: (protected)/doctors/\_components/upsert-doctor-form.tsx
+    12. Criado a pasta e arquivo de "(protected)/doctors/\_constants/index.ts", para adicionar as opções que serão consumidas no dropdown
+    13. Adicionado dependencia que será responsável por formatar os valores monetários: npm i react-number-format@5.4.4
