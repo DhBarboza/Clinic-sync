@@ -105,3 +105,16 @@ Pass:
         3. Criação do componente: (protected)/doctors/\_components/upsert-doctor-form.tsx
     12. Criado a pasta e arquivo de "(protected)/doctors/\_constants/index.ts", para adicionar as opções que serão consumidas no dropdown
     13. Adicionado dependencia que será responsável por formatar os valores monetários: npm i react-number-format@5.4.4
+    14. Criar a "server action" responsável por persistir a informação do cadastro de médico no banco de dados:
+        1. Criação da rota de exclusão de Doutor: actions/delete-doctor/index.ts
+        2. Criação da rota de Criação e atualização de Doutor: actions/upsert-doctor/index.ts
+        3. Instalar dependencia: npm i next-safe-action@4.0.4
+        4. Adicionar na pasta lib o "Action Client": lib/next-safe-action.ts
+        5. Instalar dependencia: npm i dayjs
+    15. Criar componente de card da interface de listagem de médicos: doctors/\_components/doctor-card.tsx
+        1. Adicionar dependencia npx shadcn@2.5.0 add card
+        1. Criar a pasta de helpers: doctors/\_helpers/availability.ts
+    16. Criar item de formatação de valores monetários: src/helpers/currency.ts
+    17. Adicionar função de atualização dos dados dos médicos: (protected)/doctors/\_components/upsert-doctor-form.tsx && doctor-card.tsx
+    18. Criar recurso de exlusão de médico: actions/delete-doctor/index.ts
+        1. Instalar dependencia: npx shadcn@2.5.0 add alert-dialog
